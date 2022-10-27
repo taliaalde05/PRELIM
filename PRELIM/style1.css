@@ -1,0 +1,339 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%;/*the size of your text*/
+    font-family: 'Futura Md BT'; /*this can be identify as font style*/
+    
+}
+div, section, span, ul, li, a{
+    box-sizing: border-box; /*instead using padding or border u can use this attribute*/
+}
+/*CSS reset*/ 
+
+header{
+    width: 100%;
+    display: flex;/*specifies the behavior of the display content*/
+    justify-content: space-between;/*to properly align the flexible containers*/
+    padding: 3px 10px; /*the task of this att. is to create space*/
+    align-items: center; /*the word itself, it will align your item into the place u want*/
+}
+#menu li{
+    list-style: none; /*the style of your li*/
+    display: inline-block;
+    margin: 20px; /*create space around elements or contents*/
+}
+#menu li a{
+    color: rgb(71, 1, 1); 
+    text-decoration: none;/*since this is link style i put this att. to remove the decoration to the text*/
+    font-size: 18px;
+}
+section{
+    width: 100%;
+    float: left; /*this can be specifies if you want ur element to float to the left,right,etc.*/
+    height: 100vh;
+    position: relative;/*this property specifies the type of positioning*/
+}
+section img{
+    height: 180px;
+    width: 180px;
+}
+#home{
+    background: linear-gradient(rgba(147, 175, 160, 0.788),rgba(12, 58, 1, 0.804)),url(imagess/bg1.jpg);
+    background-size: cover;/*property specifies the size of the background images.*/
+    background-position: center; /*to align the bg in to the position you want*/
+}
+#about{
+    background: linear-gradient(rgba(159, 163, 146, 0.81),rgba(14, 15, 14, 0.774)),url(imagess/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#tourist{
+    background: linear-gradient(rgba(135, 135, 116, 0.788),rgba(43, 36, 1, 0.715)),url(imagess/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pricing{
+    background: linear-gradient(rgba(161, 173, 182, 0.788),rgba(3, 37, 44, 0.804)),url(imagess/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#contact{
+    background: linear-gradient(rgba(139, 121, 136, 0.788),rgba(30, 2, 30, 0.804)),url(imagess/bg5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+     color: antiquewhite; 
+     font-size: 90px;
+     font-family: "CentSchbkCyrill BT";   
+     position: absolute;
+     padding-left: 15%;
+}
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    padding: 80px 15%;
+    background: linear-gradient(rgba(0, 0, 0, 0.682),rgba(167, 164, 164, 0.825));
+    color: antiquewhite;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+form input{
+   width: 200px;
+   height: 45px;
+   border-radius: 8px;
+   text-align: center;
+   margin-top: 8px;
+   margin-bottom: 40px;
+   outline: none; 
+   border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: antiquewhite;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+.social-icons a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+#about .container{
+    padding-bottom: 13%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+}
+.swiper{
+    border: solid 8px rgb(23, 18, 18);
+    width: 55%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 500px;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: antiquewhite;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: azure;
+}
+#about .container h2{
+    font-size: 80px;
+    padding-left: 3%;
+    color: antiquewhite;
+    font-family:  "CentSchbkCyrill BT";
+}
+#about p{
+    font-size: 18px;
+    font-family: "Calibri";
+    padding-top: 1%;
+    padding-left: 3%;
+    color: bisque;
+}
+#tourist body{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+.container1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.container1 .box{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 0 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.container1 .box .img,
+.container1 .box .img2,
+.container1 .box .img3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(imagess/ayuthaya.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 0 !important;
+}
+.container1 .box .img2{
+    background:  url(imagess/ting.jpg);
+}
+.container1 .box .img3{
+    background:  url(imagess/grand.jpg);
+}
+.container1 .box .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.container1 .box .overlay2{
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 120%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    transform: skewX(-30deg);
+    transition: .5s;
+}
+.container1 .box:hover .overlay2{
+    left: -10%;
+}
+#tourist h2{
+    padding-top: 5px;
+    font-size: 20px;
+    color: antiquewhite;
+    font-family: "Cambria" ;
+}
+.container1 .box .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    box-sizing: border-box;
+    padding: 25px;
+    z-index: 1000;
+    text-shadow: 5px 5px 10px rgb(166, 109, 109);
+}
+.container1 .box .text span:nth-child(1){
+    position: absolute;
+    top:0;
+    left: -20px;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transform-origin: left;
+    transition: .7s ease-in-out;
+    transition-delay: .7s;
+}
+.container1 .box .text span:nth-child(2){
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 1px;
+    height: 0;
+    background-color: white;
+    transform-origin: top;
+    transition: .7s ease-in-out;
+    transition-delay: .1.1s;
+}
+.container1 .box .text span:nth-child(3){
+    position: absolute;
+    bottom:0;
+    right: -20px;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transform-origin: right;
+    transition: .7s ease-in-out;
+    transition-delay: .9s;
+}
+.container1 .box .text span:nth-child(4){
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    width: 1px;
+    height: 0;
+    background-color: white;
+    transform-origin: left;
+    transition: .7s ease-in-out;
+    transition-delay: .1.3s;
+}
+.container1 .box:hover .text span:nth-child(1),
+.container1 .box:hover .text span:nth-child(3){
+    width: 115%;
+}
+.container1 .box:hover .text span:nth-child(2),
+.container1 .box:hover .text span:nth-child(4){
+    height: 120%;
+}
+.container1 .box .text h2{
+    position: relative;
+    color: white;
+    font-size: 12%;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    opacity: 0;
+    transition: .5s;
+    transition-timing-function: linear;
+    transform: translateY(-10px);
+}
+.container1 .box:hover .text h2{
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 1.6s;
+}
+.container1 .box .text p{
+    line-height: 1.2;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: .5s;
+    transition-timing-function: linear;
+}
+.container1 .box:hover .text p{
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 1.7s;
+}
+#tourist h3{
+    padding-top: 5px;
+    font-size: 50px;
+    color: antiquewhite;
+    font-family: "Cambria" ;
+}
+#tourist p{
+    padding-top: 5px;
+    font-size: 10px;
+    color: rgb(223, 234, 225);
+    font-family: "Elephant" ;
+}

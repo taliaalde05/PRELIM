@@ -1,0 +1,186 @@
+<!DOCTYPE html><!--HTML pages must all begin with a! DOCTYPE> statement.-->
+<html lang="en"> <!--the lang attribute specifies the language of ur content-->
+    <head><!--this is the container for ur data-->
+        <meta charset="UTF-8"><!--The character encoding for the HTML document is specified by the charset property.-->
+        <title>Website</title> <!--title na makikita mo sa tab-->
+        <link rel="stylesheet" href="style1.css"><!--you can use this attribute para malink si html kay css -->
+        <script src="https://kit.fontawesome.com/f8481e94b5.js" crossorigin="anonymous"></script><!--this link is front font awesome para mas madaling marecognize yung icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/><!--this is from swiper js for my slider-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    </head>
+<body><!--here's the tag that you can use para makapag input ka ng iba pang elements or content na gusto mo sa html -->
+    <section id="home"> <!--you can use this tag to seperate two or more sections-->
+        <header><!--this tag is a container for introductory or a set of nav links-->
+            <a href="#"><img src="imagess/logoo.png" alt="logo"></a> <!--The href attribute's job is to direct where the links should go. -->
+            <ul id="menu"> <!--The ul tag task is to properly list the content-->
+                <li><a href="#home">Home</a></li><!--Same idea with UL, this is list items -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#tourist">Tourist Spot</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <h1>Let's Travel<br> around Thailand</h1> <!--this tag used to define the html headings-->
+    </section>
+    <section id="about">
+        <p>Thailand is the most popular tourist destination in Southeast Asia, <br>
+            and for a reason. You can find almost anything here: crystal blue beaches, <br>
+            thick jungle, great food, cheap beach front bungalows and some of the best luxury hotels <br>
+            in the world. There is something for every interest and every budget.<br><br>
+            As the only Southeast Asian country never to be colonized, <br>
+            it is also studded with incredible cultural and historical sites,<br>
+             including ruins that stretch back hundreds of years. And despite the heavy flow of tourism, <br>
+             Thailand retains its quintessential identity with its own unique culture and history and a carefree people famed for their smiles.</p>  
+
+        
+        <div class="container">
+            <h2>All About Thailand</h2>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="imagess/S1.jpg" alt="s1"></div>
+                  <div class="swiper-slide"><img src="imagess/S2.jpg" alt="s2"></div>
+                  <div class="swiper-slide"><img src="imagess/S3.jpg" alt="s3"></div>
+                  <div class="swiper-slide"><img src="imagess/S4.jpg" alt="s4"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+              </div>
+             
+
+        </div>  
+    </section>  
+    <section id="tourist">
+        <h3>Top 3 tourist spot in Thailand</h3>
+
+        <div class="container1">
+            <div class="box">
+                <div class="img"></div>
+                <div class="overlay"></div>
+                <div class="overlay2"></div>
+                <div class="text">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <h2>Ayuthaya Historical Park</h2>
+                    <p>this popular tourist attraction contains the ruins of the second capital of Siam, which was founded around 1350. By 1700 Ayutthaya had become one of the largest cities in the world with a total of 1 million inhabitants.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img2"></div>
+                <div class="overlay"></div>
+                <div class="overlay2"></div>
+                <div class="text">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <h2>Floating Market</h2>
+                    <p>Bangkok’s numerous floating markets have long been among the city’s star attractions. Although nowadays most function as tourist magnets and community gathering places, rather than vital components of local economies, they still present a visual feast for the senses and immersion into a Thai traditional way of life, when Bangkok was known as the ‘Venice of the East.’ .</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img3"></div>
+                <div class="overlay"></div>
+                <div class="overlay2"></div>
+                <div class="text">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <h2>Grand Palace</h2>
+                    <p>Grand Palace is perhaps the most famous attraction in the bustling city of Bangkok. Situated on the banks of the Chao Phraya River, the walled-in complex contains a compelling series of pavilions, halls, wats and other buildings interspersed with vast lawns, lavish gardens and stately courtyards.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="pricing">
+    <div class="container">
+        <h2>Tourist Spots</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="imagess/chiang.jpg" ></div>
+              <div class="swiper-slide"><img src="imagess/erawan.jpg" ></div>
+              <div class="swiper-slide"><img src="imagess/khao.jpg" ></div>
+              <div class="swiper-slide"><img src="imagess/ko.jpg"></div>
+              <div class="swiper-slide"><img src="imagess/a.jpg"></div>
+              <div class="swiper-slide"><img src="imagess/b.jpg"></div>
+              <div class="swiper-slide"><img src="imagess/c.jpg"></div>
+              <div class="swiper-slide"><img src="imagess/d.jpg"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+         
+
+    </div> 
+</section>
+    <div class="footer"><!--same idea with section, div is to divide in an html doc.-->
+        <div class="col-1">
+            <h3>Useful Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#tourist">Tourist Spot</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="col-2">
+            <h3>News letter</h3>
+            <form><!--Text fields, checkboxes, radio buttons, submit buttons, and other forms of input elements are all contained under this element-->
+                <input type="email" placeholder="Your Email Address"><!--this tag defines an input where user can enter data-->
+                <br> <!--simply break a line-->
+                <button type="submit">Enter</button><!-- same thought with a href this is clickable button-->
+            </form>
+        </div>
+        <div class="col-3">
+            <h3>Contact</h3>
+            <p>2555 topacio st., SAB manila</p>
+        <div class="social-icons">
+           <a href="https://www.facebook.com/cristaliaalde05/"><i class="fa-brands fa-facebook"></i></a> 
+           <a href="https://twitter.com/crstlia"><i class="fa-brands fa-twitter"></i></a> 
+            <a href="https://www.instagram.com/taliaalde_/"></a><i class="fa-brands fa-instagram"></i></a> 
+            <a href="https://www.facebook.com/cristaliaalde05/"></a><i class="fa-brands fa-google"></i></a> 
+        </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay:{
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+</body>    
+</html>
+<!--I made this type of website since I have always wanted to visit to Thailand since I was a child. I'm absolutely in love with Thailand, and I'd like to meet my favorite BL actor as well.-->
